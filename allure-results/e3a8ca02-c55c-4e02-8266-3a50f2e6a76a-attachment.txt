@@ -1,0 +1,261 @@
+[32mINFO    [0m BASE_PAGE:base_page.py:16 Opening the https://parabank.parasoft.com/parabank/index.htm
+[32mINFO    [0m BASE_COMPONENT:base_component.py:20 Checking that current url matches with https://parabank.parasoft.com/parabank/index.htm
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: leftPanel and //h2
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Customer Login title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[1]/b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Username title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[1]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Username input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Password title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[2]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Password input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[3]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that button: LOG IN button to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[1]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that link: Forgot login info? button to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that link: Register button to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: leftPanel and //h2
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Customer Login title have text: Customer Login
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[1]/b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Username title have text: Username
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Password title have text: Password
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[1]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that link: Forgot login info? button have text: Forgot login info?
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that link: Register button have text: Register
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[3]/input
+[32mINFO    [0m BASE_ELEMENT:button.py:15 Expected that button: LOG IN button have value
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[3]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that button: LOG IN button to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[1]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Username input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //div[2]/input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Password input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[1]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:76 Expected that link: Forgot login info? button have href: lookup.htm
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:76 Expected that link: Register button have href: register.htm
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: loginPanel and //p[2]/a
+[32mINFO    [0m BASE_ELEMENT:base_element.py:68 Clicking link: Register button
+[32mINFO    [0m BASE_COMPONENT:base_component.py:20 Checking that current url matches with https://parabank.parasoft.com/parabank/register.htm;jsessionid=8F9CABBE9292DE45205EF2C70721F109
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //h1
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Signing up is easy! title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //p
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: If you have an account text to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: First Name: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: First Name: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Last Name: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Last Name: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Address: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Address: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: City: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: City: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: State: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: State: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Zip Code: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Zip Code: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Phone #: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Phone #: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: SSN: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: SSN: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Username: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Username: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Password: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Password: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Confirm: title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that input: Confirm: input to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that button: Register button to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //h1
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Signing up is easy! title have text: Signing up is easy!
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //p
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: If you have an account text have text: If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: First Name: title have text: First Name:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Last Name: title have text: Last Name:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Address: title have text: Address:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: City: title have text: City:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: State: title have text: State:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Zip Code: title have text: Zip Code:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Phone #: title have text: Phone #:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: SSN: title have text: SSN:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Username: title have text: Username:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Password: title have text: Password:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//b
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Confirm: title have text: Confirm:
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:button.py:15 Expected that button: Register button have value
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: First Name: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Last Name: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Address: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: City: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: State: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Zip Code: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Phone #: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: SSN: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Username: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Password: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that input: Confirm: input to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Expected that button: Register button to be enabled
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: First Name: input with Tammie
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Last Name: input with Johnson
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Address: input with 943 Foster Course Suite 647
+Toddhaven, GU 39156
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: City: input with East Keithbury
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: State: input with Wyoming
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Zip Code: input with 73182
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Phone #: input with 001-876-486-5419
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: SSN: input with 282-56-3196
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Username: input with kyle76
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Password: input with Dcd0XgdVp(
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Confirm: input with Dcd0XgdVp(
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:68 Clicking button: Register button
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customer.username.errors and 
+[32mINFO    [0m BASE_ELEMENT:base_element.py:51 Expected that text: This username already exists. text is visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: First Name: input with Cassidy
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Last Name: input with Henderson
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Address: input with 18672 Nicole Forge
+North Christopher, WY 65674
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: City: input with Port Ashleyshire
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: State: input with Montana
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Zip Code: input with 50526
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Phone #: input with +1-275-815-2524x65424
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: SSN: input with 582-75-7772
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Username: input with brockkevin
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Password: input with #C3NnWNoF#
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Confirm: input with #C3NnWNoF#
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:68 Clicking button: Register button
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customer.username.errors and 
+[32mINFO    [0m BASE_ELEMENT:base_element.py:51 Expected that text: This username already exists. text is visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: First Name: input with Alyssa
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Last Name: input with Munoz
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Address: input with 08830 Adrian Underpass
+Calvinburgh, IN 18997
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: City: input with Lestad
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: State: input with Georgia
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Zip Code: input with 09360
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Phone #: input with 001-704-622-6120x3481
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: SSN: input with 670-90-9386
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Username: input with cathy72
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Password: input with PU1SYITk4_
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Confirm: input with PU1SYITk4_
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:68 Clicking button: Register button
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customer.username.errors and 
+[32mINFO    [0m BASE_ELEMENT:base_element.py:51 Expected that text: This username already exists. text is visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[1]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: First Name: input with Andrew
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[2]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Last Name: input with Clarke
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[3]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Address: input with USS Anderson
+FPO AP 32394
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[4]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: City: input with West Philip
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[5]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: State: input with Mississippi
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[6]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Zip Code: input with 24616
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[7]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Phone #: input with 934.446.6104
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[8]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: SSN: input with 552-22-1317
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[10]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Username: input with tfields
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[11]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Password: input with A^t89VvB)n
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[12]//input
+[32mINFO    [0m BASE_ELEMENT:input.py:15 Filling input: Confirm: input with A^t89VvB)n
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customerForm and //tr[13]//input
+[32mINFO    [0m BASE_ELEMENT:base_element.py:68 Clicking button: Register button
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: customer.username.errors and 
+[32mINFO    [0m BASE_ELEMENT:base_element.py:51 Expected that text: This username already exists. text is visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //h1
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Welcome ... title to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //p
+[32mINFO    [0m BASE_ELEMENT:base_element.py:31 Expected that text: Your account was created successfully text to be visible
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //h1
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Welcome ... title have text: Welcome tfields
+[32mINFO    [0m BASE_ELEMENT:base_element.py:24 Get locator from id: rightPanel and //p
+[32mINFO    [0m BASE_ELEMENT:base_element.py:38 Expected that text: Your account was created successfully text have text: Your account was created successfully. You are now logged in.
