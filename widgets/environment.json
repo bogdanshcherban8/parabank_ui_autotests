@@ -1,0 +1,1 @@
+[{"values":["allure-results"],"name":"allure_results_dir"},{"values":["{'base_url': HttpUrl('https://parabank.parasoft.com/'), 'browsers': ['chromium', 'webkit', 'firefox'], 'headless': True, 'parabank': 'parabank'}"],"name":"http_data"},{"values":["tracing_dir"],"name":"tracing_dir"},{"values":["record_video_dir"],"name":"record_video_dir"}]
