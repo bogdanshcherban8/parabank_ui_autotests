@@ -1,0 +1,9 @@
+#pycharm
+.idea
+.venv
+#allure
+allure-results
+allure-report
+#testing artifacts
+tracing_dir
+record_video_dir
