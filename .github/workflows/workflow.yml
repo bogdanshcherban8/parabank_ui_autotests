@@ -20,8 +20,7 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps
       - name: Run Tests
-        run:
-          pytest
+        run: pytest
       - name: Upload allure-results
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,7 +43,7 @@ jobs:
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gp-pages
+          path: gh-pages
       - name: Generate allure report
         run: |
           npm install -g allure-commandline
@@ -52,7 +51,7 @@ jobs:
       - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secret.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./allure-history
 
