@@ -10,3 +10,4 @@ def create_environment_file():
 
     with open(settings.allure_results_dir.joinpath('environment.properties'), 'w+') as file:
         file.write(properties)
+
