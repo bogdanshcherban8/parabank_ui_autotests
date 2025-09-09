@@ -1,0 +1,5 @@
+.venv
+.idea
+allure-results
+record_video_dir
+tracing
