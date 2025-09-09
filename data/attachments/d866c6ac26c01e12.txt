@@ -1,0 +1,4 @@
+INFO     BASE_PAGE:base_page.py:15 Open https://parabank.parasoft.com/parabank/index.htm
+INFO     BASE_COMPONENT:base_component.py:17 Check that current url matches re.compile('https://parabank.parasoft.com/parabank/index.htm')
+INFO     BASE_COMPONENT:base_component.py:17 Check that current url matches re.compile('https://parabank.parasoft.com/parabank/index.htm')
+INFO     BASE_ELEMENT:base_element.py:32 Check text: Customer login to have Customer Login
