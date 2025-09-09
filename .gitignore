@@ -3,3 +3,4 @@
 allure-results
 record_video_dir
 tracing
+__pycache__
