@@ -30,6 +30,7 @@ class Settings(BaseSettings):
         record_video_dir = DirectoryPath("./record_video_dir")
         record_video_dir.mkdir(exist_ok=True)
         allure_results_dir = DirectoryPath("./allure-results")
+        allure_results_dir.mkdir(exist_ok=True)
         return Settings(tracing=tracing, record_video_dir=record_video_dir, allure_results_dir=allure_results_dir)
 
 
